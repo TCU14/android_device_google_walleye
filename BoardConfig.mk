@@ -33,9 +33,3 @@ BOARD_LISA_TARGET_SCRIPTS := device/google/wahoo/lisa/
 # VTS DTBO Verification. This kernel cmdline parameter should be added by the bootloader
 # for all future devices.
 BOARD_KERNEL_CMDLINE += androidboot.dtbo_idx=3
-
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_SOURCE := kernel/google/wahoo
-TARGET_KERNEL_CONFIG := custom_defconfig
-TARGET_KERNEL_ARCH := arm64
-BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
