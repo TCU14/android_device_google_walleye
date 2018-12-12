@@ -195,5 +195,9 @@
 
     <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
     <bool translatable="false" name="config_wifi_softap_ieee80211ac_supported">true</bool>
-
+     
+     <!-- Specifies whether to decouple the auto-suspend state of the device from the display on/off state. -->
+     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+     
+     
 </resources>
